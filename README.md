@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since day one  <br>📚 Learning AWS Cloud  <br>🎯 Goals: Full-stack + Cloud mastery  <br>🎲 Fun fact: Bugs fear console.log 😄</p>
+<p align="left">✨ Turning coffee into code since I started coding ☕<br>📚 Learning AWS Cloud  <br>🎯 Goals: Full-stack + Cloud mastery  <br>🎲 Fun fact: Bugs fear console.log 😄</p>
 
 ###
 
