@@ -1,4 +1,4 @@
-<h1 align="left">Hi 👋, I'm Kandhula ManoJ kumar</h1>
+<h1 align="left">Hi 👋, I'm Kandula ManoJ kumar</h1>
 
 ###
 
