@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">Hi 👋 I am a Software Developer at VulcanTechs (Goprayaan) with 1.8 years of experience in building and maintaining web applications using React.js, Node.js, and MERN Stack technologies. Collaborating closely with my team, I contribute to developing scalable, user-friendly, and efficient digital solutions while continuously enhancing my technical expertise. 🚀</p>
+<p align="left">Hi 👋 I am a Software Developer at VulcanTechs  with 1.5 years of experience in building and maintaining web applications using React.js, Node.js, and MERN Stack technologies. Collaborating closely with my team, I contribute to developing scalable, user-friendly, and efficient digital solutions while continuously enhancing my technical expertise. 🚀</p>
 
 ###
 
