@@ -1,5 +1,4 @@
 {
-  "username": "manojcoders",
   "widgets": [
     {
       "widgetId": "header",
@@ -13,7 +12,7 @@
         "height": 90
       },
       "config": {
-        "animationType": "typewriter",
+        "animationType": "typewriter",Q
         "animationPreviewKey": 17,
         "hideBorder": true
       },
@@ -11736,10 +11735,5 @@
     "themeMode": "dark",
     "templateStyle": "native"
   },
-  "templateId": "cyberpunk",
-  "profileSlug": "default",
-  "metadata": {
-    "revision": "rev_1791429555113_gjjg4",
-    "updatedAt": "2026-10-08T03:19:20.237Z"
-  }
+  "templateId": "cyberpunk"
 }
