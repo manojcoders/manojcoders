@@ -11730,14 +11730,14 @@
     "borderColor": "#252525",
     "fontFamily": "'JetBrains Mono', monospace",
     "borderRadius": 0,
-    "padding": 24,
+    "padding": 12,
     "themeMode": "dark",
     "templateStyle": "native"
   },
   "templateId": "cyberpunk",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1791428928885_zrzei",
-    "updatedAt": "2026-10-08T03:08:53.284Z"
+    "revision": "rev_1791429016669_me0ae",
+    "updatedAt": "2026-10-08T03:10:20.548Z"
   }
 }
