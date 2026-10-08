@@ -13,8 +13,8 @@
         "height": 90
       },
       "config": {
-        "animationType": "none",
-        "animationPreviewKey": 12,
+        "animationType": "typewriter",
+        "animationPreviewKey": 17,
         "hideBorder": true
       },
       "locked": false,
@@ -23,99 +23,261 @@
       "instanceId": "widget_1791426829678_0"
     },
     {
-      "widgetId": "ascii-art",
-      "name": "Ascii-art Widget",
+      "widgetId": "terminal-info",
+      "name": "Terminal-info Widget",
       "position": {
-        "x": 0,
-        "y": 106
+        "x": 288,
+        "y": 114
       },
       "size": {
-        "width": 280,
+        "width": 504,
         "height": 280
       },
       "config": {
-        "detail": "medium",
-        "cols": 150,
-        "charset": "dense",
-        "edgeEnhance": true,
+        "headerColor": "#c5ff4a",
+        "labelColor": "#ffa657",
+        "dotColor": "#484f58",
+        "valueColor": "#f0f6fc",
+        "statsValColor": "#79c0ff",
+        "dividerColor": "#30363d",
+        "showJoined": true,
+        "showHighlights": true,
+        "showStatsSection": false,
+        "showStatus": true,
+        "showFollowing": true,
+        "showPronouns": true,
+        "showTimezone": true,
+        "showAchievements": true,
+        "showEmail": true,
+        "showTwitter": false,
+        "showOrgs": false
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2,
+      "instanceId": "widget_1791426829678_2"
+    },
+    {
+      "widgetId": "languages",
+      "name": "Languages Widget",
+      "position": {
+        "x": 0,
+        "y": 402
+      },
+      "size": {
+        "width": 536,
+        "height": 160
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 3,
+      "instanceId": "widget_1791426829678_3"
+    },
+    {
+      "widgetId": "tech-stack",
+      "name": "Tech-stack Widget",
+      "position": {
+        "x": 544,
+        "y": 402
+      },
+      "size": {
+        "width": 240,
+        "height": 160
+      },
+      "config": {
+        "selectedTechs": [
+          "js",
+          "ts",
+          "react",
+          "nextjs",
+          "nodejs",
+          "tailwind",
+          "postgres",
+          "docker",
+          "git",
+          "php",
+          "vue",
+          "bootstrap",
+          "jquery",
+          "express",
+          "fastapi",
+          "mysql",
+          "mongodb",
+          "linux",
+          "postman"
+        ],
+        "theme": "dark",
+        "perLine": 6
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4,
+      "instanceId": "widget_1791426829678_5"
+    },
+    {
+      "instanceId": "widget_1791427619372",
+      "widgetId": "premium-ascii-profile-card",
+      "name": "Premium-ascii-profile-card Widget",
+      "position": {
+        "x": 0,
+        "y": 570
+      },
+      "size": {
+        "width": 352,
+        "height": 352
+      },
+      "config": {
         "lockAspectRatio": true,
-        "rows": 75,
+        "transparentBackground": true,
+        "backgroundColor": "transparent",
+        "accentColor": "#3fb950",
+        "secondaryColor": "#39c5cf",
+        "borderColor": "#30363d",
+        "customWebsite": "https://protfilo-manoj.vercel.app/"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "widget_1791427645237",
+      "widgetId": "premium-ascii-dev-score",
+      "name": "Premium-ascii-dev-score Widget",
+      "position": {
+        "x": 322,
+        "y": 570
+      },
+      "size": {
+        "width": 156,
+        "height": 156
+      },
+      "config": {
+        "lockAspectRatio": true,
+        "transparentBackground": true,
+        "backgroundColor": "transparent",
+        "accentColor": "#3fb950",
+        "secondaryColor": "#39c5cf",
+        "borderColor": "#30363d"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
+    },
+    {
+      "instanceId": "widget_1791427681959",
+      "widgetId": "premium-ascii-insights",
+      "name": "Premium-ascii-insights Widget",
+      "position": {
+        "x": 334,
+        "y": 728
+      },
+      "size": {
+        "width": 194,
+        "height": 194
+      },
+      "config": {
+        "lockAspectRatio": true,
+        "transparentBackground": true,
+        "backgroundColor": "transparent",
+        "accentColor": "#3fb950",
+        "secondaryColor": "#39c5cf",
+        "borderColor": "#30363d"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 7
+    },
+    {
+      "instanceId": "widget_1791427881719",
+      "widgetId": "asciiprofile-portrait",
+      "name": "Asciiprofile-portrait Widget",
+      "position": {
+        "x": 0,
+        "y": 90
+      },
+      "size": {
+        "width": 280,
+        "height": 316
+      },
+      "config": {
+        "accentColor": "#f0f0f0",
         "asciiText": [
-          "9jxZZZ[tIIII}i7JJ7{3t3IIItuelC/!r/Lvi35k4p6jfL!;^=!)3ZYxjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjya]E2ajxY5ZZZYYxYYYYYYYY5555555ZZZ5ZZZoZZZZZZZZZZoooZZooooeoeeee",
-          "qI|)J7)vLzssTs/*rc?T)TL?zTvv7l9bXAbOpV496kdVp4d9wj[Fv|i||FFFF|FFF|F|F|F||||||F||||||F|Fi{{{{F||(77((||(|(((((((((7(((7(77(777777(77777777777J7JJ7JJJJ3",
-          "w}JJ7)J(7v/??c;''_>cz?/svJJ|nEqaay]2SS2]ayaEqhVOXR$89ZFJJJJJ)J)))JJJJJJ7JJJJJ777(777((||FFii|7JJvv)))J))J)J)7J)J)J7J)))v))vvvvvvv)vvvvTTTTTTTTTTTTTLLI",
-          "q}()J7J7|F7L?zzs?*/?zzTJ77JJFlaSkPhh999966h6PP669ddP]xI|7J))JJJJJJJJ7J7JJ7J7JJ77J7|iI3ttt1fC(((()v)JJJJJJJ77777J{llll13I}C{i|(7JJJ))vvvvvvTvvTTLTLLTL3",
-          "kf(7((|(i}31lu[n[ul1fI}iF(JJ)J|{IlnZxa2wkkkkqwSS2ajY[f(7JJJJ)JJJJ)7JJ7J7JJ777({tnneou131uoY5enl3i(J)J)JJJ777J77}}JsTvJ7|i{Cf31tlltt1IfC{F(|J)vvTTTTTTI",
-          "63iii{CC}3tueeoZYjjj5el33ff}CCiFF(JJ(F{fI3313If}ii||7JJ)))v))JJ)J)JJJJJ77|iloon})Tszr+++rc?sss)|i3t}(7JJ7J77J77}i!-''__^=;<+rc*/z?LT)J|FC}}I3333f}C{F}",
-          "91fII3tlttll111ttllluu[[eooene[uut1IIfCCiiF|((7777JJJJ)JJJ))J))))JJ)JJ77fue}T?r^-```....----'''=<zJCt3{J7J7777(fi+.``    ` ``````.-'_,^;<+!rc/zzsLv)7z",
-          "4l3ttu[[eoZZ5YYxxxxjjyyyyyyjjjxxxY5Zee[utt33If}C{iii||(7(7777J7JJJ777J{nuJ/,.````...----.'-.:_::::,<s|31i(7JJ(7fF>.  ` `  `      ` ` `      ```-'':,^ ",
-          "b[luoZZYxjja2ESSSSwqkkkkqqqkqqkqqqww2]ajY5on[lt1If}}C{iiiiFF||(|((7(7{lF+'` ` ````.-'':'-.''.-''__':,<TCu3|(7J7I|;``        ` `    `   ` ` `  `     ` ",
-          "butn5xa2EE2SSwwwSSSEEEEESEESSwSSSwqqkkPkkq22ajZo[ul13II}C{iiFFF||||(|ti;`` ` ``....-':_:-`'--''.-_,:-:,<L}t1}F7I7=``  `  `      `    `   `   `  `     ",
-          "GuuexaSwwSSSE2]]]aaaa]]a]a]]a]aaayaa2ESSwwqqqwS2]yx5on[ut1IfCC{iiFii}lz-``  ``...`..'''..`.``---`.',::.'_<LJflt1J,`        ` `     `              `   ",
-          "9uoyEqwE2]aa]]ay]aaaayayayayaayyayaaa]]]ay]]ESqkwSw2ajY5o[ut13If}}i{[|_`  ` ```.`.``````` `````.```.'.``.-:=+/7|c:` ` ` ```...---...`.`````` ` `    ` ",
-          "8h99kw222a]]]aaaayayayyyyyyyyyayyayayayayayaaa]2ESwqwE]yj5ennult3111Zs.     ``````````      `    `   `` ```..-:>_``    ```..-'''''-----'--.--.-.-.... ",
-          "QqSE222]]]222a]aayayyyayayyayyyyyyyyyyyyyayyaa]]]]]2EwwS2ajYZon[ltt[jz` `      ````...--':___,,_-`` `  ` ``.```..`` ` ` ```...-----.---..------'------",
-          "&2222SkkP4OOpV4dd9966qEaayyaaayayyayyayyyayyyyya]aaa22EEE2]yjYZen[[au;     `.'__^;>+czTJ(i{i{C{|Tz!='.  ````` -:.``    ```` ````````.`.......-.-......",
-          "@22qP6ww6q]aa]EESwk6h96Eaayajayyyyyyyyyyyyayyyyyaa]2222222]ajxx5oe5k{:    `:=<r/?v7{3nYja2]]aaxY5e1{s>-`     ._,:. ` ` `` ````` ```````````.````..`.`.",
-          "%q6hSxj]YfFF{|(F{C}31Zqhw2ayaaayyayyyayyayyyayaa]]]222222]aayxxx5ZyhF'   `:;+!*?T7{f3tl1ttlltt1fIIfI{7+-` ```.':-``   ``````` ```````````.``.`..`.`...",
-          "N9q5ne5t|JT?v|CFJJJJ)(uShE]yayyayyayayayyyayyyya2222EE2]]ayyjxYYZZwPJ-  `-=>>czL7{f11t11tttt113ICii(vJ/_``...-__'``  ` ```````````````.`.`.`..`....`.-",
-          "Xxu[n[3IICF7sCIfCi(JJJiuwhwaaaayaaayaaayaaaay]]2E22]2222]ayyxYY5ZZ]9C:  .,><csJiI[e[[uutunoZ5jxY[f{JsT/_``..'^*<,. `  ````````````.`..`.`..`.....`...-",
-          "AnnZYxjY[3i(|T}CTv(77JJF[S6S]aayaayayayaya]]]]2222]2]2]]aayyY555Zexh]! ._^:'_=<rz7}u[eoeeZZjyYnl13}{|v?;.```'*|z,``  `````````.````.``.`.`.`.`.....-.'",
-          "4[j2YjjxZ3{{IC7)JFiF777JFu]S2]ayyaaayaaaa]22]222]]2]]]]]yyjxY555oeo]Pv`:>,:::'''-';/)|{F}1}{)/rrc*r=^<r+- ``^(FJ^. ` ````````````.``.`.`.`.`.....-.--'",
-          "kf1xy5xZ3iFi3CLz|I{iii(7{n2Pw]2]]a]22222EE]2]]]222]2]]yajjxx5ZZZoo5Pa/-_>^^'-:::''-`'<T(L!+^-':,=>c/s/?/: ``>i(7^``   ````````````.`.`..`......--.-.-'",
-          "PI(txYouICi}F*=_+Fl11f{Ix64q22]2EE]2EE2E]2]]]]a]]2]aaayjjjYYZZZooex6}<:=+*L)JT)TLz/z7[ax5u()sz*???!?TJvL^.',/f|J,.  ` ````````.``.```.`.`.....-..-.--'",
-          "6IFFlZtl}C{}i1Z5tIyyYlux2SSa2]]2222]2222]]]22]2]]2aaajyjxYYZoooeeejw{<'<?v|funu1I3IC}[ntu[ZjZlICIl55l{(7>+/z}tl7,``  ``````````````.`.`.`.....-.---.-:",
-          "h1|F{t[l3{C{nqVbVj2aSx5no]w2]2]]]2]2222]22222]]]]aayjjxxYY5Zoooeen5wl!'!LLJF{{CCi}CF{ueZZlC{i3u5yy5lIfCJ=J7vI{[7_. `  ```````````.`.`.......-.-------:",
-          "63C{i{tl3IC|}Ywk]loS2jxeoES2a]]]2]]22]]]]2]aa]a]yyjjxjxYY5Zoooee[nZ2Yv=;/?v(Cf{(J)JJiuYx5eZu{(3xYeutfC{TcJ7fIFe):``  ` ``````.`.`.`..`.`.....-.------:",
-          "4lf}}Ci{C{ii|if1fC3oyYu1aS2y]]]]a]]]]2222]]]aayjjjjxYYYYYZooeen[[nuZSf+_<!czTvL?+,'-_rL?!<c|1iFFeol3CFi/J1{f{iZJ:``   ``````````.```.`..`...--------':",
-          "Vl}}ffff}{i|FFF|((JF{{1xEaayy]aa]aaa]]]]]]aayjxjxYYYY5Y5Zoeeen[[[u[naY):_=<<+^^;,:^<zcrc!!r+v(s!z({i}{(<({{{FCZv:`  ` `````.``.``..`..`....-...------:",
-          "pl}CCCCC}fff}CiF||iifny2yyjjjjaaaaaayyyyjjjjxxxY55ZZ5ZZooeenn[[uulllek2/`:;>^.-''^+L||C}Fv*c<,':zLT7)/>z1I{FF}ov'``  ``````````.``.`.`.....-.----.---'",
-          "VlfC}}}CCC{{C}C{ii{1oy]axxjxxyjyyyyyjjxxxxYYY555ZZZZoZoeennnu[uultlluowf:`','-^==!s(3I11C|({f|r!sLT*=:_|eCFFF}oT'`   ```````.`.`.`.`...`...--.-.-----:",
-          "VtCCC{{{C{{{i{CCf3lZyjj55xxxxxxxxxxxxxYxYYY555ZZZZZoooeeenn[[ulttltt3tYPv``..'^^^,_;czz*!rv(Fi!>*r>:..r[[|iFF}eT'` `  ````.``````.`..`......---------_",
-          "Olf}}}CCC{{{C}}f1[xaaxZ555YYYYYY5Y5YY5555555ZZoooZoeeeeen[[[[lttttttt1l]]L' `._;<;;>>+*T(|(}fz==_:-.`^35CFiFFfe?-`   ```.`````.`.`.`...`..-.-------''_",
-          "OuIfff}}ffff333leYayY55Y55555Z5Z5555YYY555ZooooZoeeeenn[n[[[ltllt11113IlEqf>. .'^=;>+!*?v|Fvr:--..``,75tItC||I[z-``  ````````.`.`..`.`....----------'_",
-          "bel33I3I31lnnne5xyx55555Y5ZoZZZZZZZoZZZZZooooooeeennn[[[uullttttt11333I31Yhxc. `..-:,^;;;>>,-.````:<?*F[Yq][{3u/.`  ` ````````.`.`.`........-------'',",
-          "8Yeultllue5xxxjxjYZ5Z5555ZZZ55Z5ZZoZZooooZoooeeoenn[[[[ullltltt11133I3I3tIIkn<.` `` ``.....` ``._>?JvL>c2$44a[1c.`   ``````.`.``.`..`.`...----------',",
-          "D5eoeoeeZZ5ZZZ5ZZZZ5555ZZZZZZ5ZZZZoZZ5ZZoeeeeeooeenn[[ullltttttt11333333ffCeYL^:-.`` ` `...-':,</v7LsJ=CBOE6b9er.` ` ``.````.`.`..`.`......---------',",
-          "D5eeeneeeeeoZoZoZZZ555ZZ5ZZZ5Z5Z5ZZZZZooooooooee[[[uuuuutttltt113333IIfIfff5Y)=_,_::__,,,^^=;<r/ssz/?L*h$S2E98yL=-` ````.`.```.`.`.`.......-.-----'-:,",
-          "RZnn[[[nneooooZooZZZZZ5ZZZ5ZZZ5ZZoZoZooZoooooennuuululullttt11333IIIffff}[]yC<:':_,;+!+<>=;;+!c?L?/z?!x$VE]2Sd8G2ouI|L+=:-.`...............--------'',",
-          "RZn[[n[Z5xYZeneZoZoZoZoZZZZZZZoZoooooZooeeenenn[lulllltttll11313I3Iff}Cfny[T=:_:':_^;===^=;<r*?s?zzz/l$O22]2]S9XW&@N#Ah2Z[f)c>,'....-.....-.---'----:,",
-          "8Z[[[uoYS96SYZneooooooooooooooZZooooeoeeeneenn[uullllltttlt111IIfI33tttu5Ir:..:'':_,^^^=;>+!c**/z?zcIAbE]]]]]222]a]qVXg&QQNmdSyot{v/;:-.-.-.-----'-'',",
-          "8Z[uunYjnifx]YeneeeoooooooooooZoooooeeeeneenn[uuulltlltttt111tlu[ul1ICi{tL,-.`-:''_,^^==;>>+r*/z??cCpHw222]]aaaa]2]ya]ES2ywpHDMNN$AdEoi+'--.--------:_",
-          "RZnu[ojoJ,+fjx5nneneeeeoZoooooZ5ZZooeoeeeeenn[ulltttttttlue[[tfIfCF(7((tic,.` `-'''_,^=;;>><!rcc*/f6UP2222]a]2]22EqwE2ayxxjx5YajE6b80QMdf+'-.-.--.--:,",
-          "mo[[eZ5{>.:soYonnoeeoeeeooooooooeoeeeeeenen[uullultuuunnln3C{F{iF|(|F{ffsr;' ```-''::__^^^^^===>Ln9OPE2]]]22222E22S2]ESSS2aSS2xS2yyaa290MPv,-------'',",
-          "8Zn[een):`-znYonnneoeoeeeeeeeeeeeeeoeenennnuuuullll[[t1fu}}3f}C}{Fii{}IJ/*>^_...`-'':_,,=>!*zs?(5hOP]]2]2]2]]2]22]]2E22wEj2]SYwEE2]ay]]y40Kl!--.-.--:_",
-          "85[n[[tL_ _)55[lu[eeooeooeooooeeeeeoenn[n[n[[uuut[nlffttI11}}{{{i{C{CffTz*r?77c,'':_^;>!si}}}IIl]dh22E22222]22EE]y]E2ESEx22ExEEqEaEE]a]EwEKR2+:''''':_",
-          "RYeutt3s:`^|YeuuluunneooeeoeoZoeeeeeoeeene[uluul[u3fluul3u3fCCfIIf{3ZYCzc/v3yPa}*=^;cT({u[f}|CI3ydXKKHHAGp6S22]y]222ES]xS]Ej]]k]xwSE]]PkjyqbM3:---.--`",
-          "m5nt31Iz'`=i5ou[u[[nnneeoeoooooo5YxxxYZonnuuuulll11eZeu1ett3CI[ou3[n}Ts*!L{[on2d2FTJfoZt{F(7(77|C[xy2E]ayySkE]]222222]]2a]a]a2jyS]]whkYZEkww$w+` ` `` ",
-          "HZu13lC!.`^iYo[uu[[nn[eeoeooo5]SqEyYx2k6E5[uueeut1[5j5IotuutilonoZ})v?*zs?zs{ZE2jw5yeff{JvT|Cff{f33lt}[5j2kw2]222E2ESS]aEEa]2y]SyyqwZY69qS2kKh?.      ",
-          "Kot3tl(;``^(5Z[uu[nnnneeZooo5ayeoxYe5jyykkYn55nn3ueZ[Ionnnnt}lnoulaye}{(77|{iJv?F5[l1}F7(|{lnlu[xwdpPhUG46E]SwkkqwS]jj]2Sa2SwYa]]PEokhk22]2qOd).` `  `",
-          "Uet111v;::>{YouuunneoooZoZeoYYno1(1o[Cz!ToaoY3Fn2j]nexn13fIfiIf}ftuIu]yj5oee5ySSSf[[luttln5yaYYaqqqSY5]YxyyyxxZYyyY2wwEwa5yEZEES6y29q2SE]22SGO(-      ",
-          "Ou3I1tf{|FCueutltttl[eZ5ZooZYne3c-_;+///|l[u3((1jYuaEEwEyolun5[leZ1]OUGO6]j]ESj5qo)tEjYxy2Eh4k2wqkwS2kSww2ESSqqS222E222qZSSoEwkV2wka]]]]]22EOU{:   `  ",
-          "AZeoneYxjjy5n[eeeee[u[[ueeeoZef{C|}oYx5u3ttl{JJI5tx]xxYxZu33nuu1lZ{akSSSqx[5xxej2VPp6q2SwwkPqSZa2EqEySE]2E]]2EE]aaE]]2k]aSku2akZl9Eaayya]]]E6p}: `   `",
-          "RxY5ou3I}}3teoYyyyjx5lf3nZ5x5l33le[IC{It1}ff7)Liloaaaa]j[131[l[n[15]kwS2SEna2yowS9OhE]Ekw2aw6jx]EE6j2k]222]]2]xy2E]]EwknaqlEwa2]26]222aaa]]w6p}:      ",
-          "h]yx5e[uuu[eYxjyaaayYenoYa2]j5nl1ttleen[ulCf()T71yjx]]]jnf3ulu[[ony5EPqEwaoSayYy222S2yya2yjEaYaaEEkeSq2]]]2EyyEw2a2y2qaxE1kpSEq]Y6]a]]a]]]aw6U1,  `  `",
-          "Z}iF||777J7(||FF|FFiF|F|ii{i||77J77777J(7{[}17LJt]]yxyYZnu1Z5YYul]y5o22y2YyE2joaE]2ajYjaaxyYxSaaaE2ZwS2]2S2Y]qw22]a]]wY]nE6E]]qxyk]]]ESy]2]]hDe^      ",
-          "uvccrrrr!rr!rr!rrr!!!+++<>>>>><<<><><>>>TCf[1C)v3Y22]jYountoxyqa3Syy55jYoYSESjxE22]Zya]]ayy2waaa2SyjqE]ESwy2wEwqSSyEwSxae]S2]w6x]P22PwY2E22Ek8Y;`  `  ",
-          "uv++++<++<<<<<<<<<<<<<<<>=,,^==^===;=;>T}CiTfi7v}oxxxoeuun3nYjwx[ajY5ejaYjaS25xS]Ea5a]S2j2a22]yE]wj]q2Eqkaaq]EwEayEE9]yo5j]EE2j[w6wqyjww2]Ew]Ux> `   `",
-          "lv++<++<+<<+<<<<<+<<<<><<=,,=^===;=;;>z}ftZeJvsLCnj5el[unut[n5]lnxxxYenYjjxy55yESSxj2]wY5yy]S]yE2k5wSqqw]ySE2SEZ52Sk6j[exxqEEa]ykSwjEqw]]]w2xba!`     ",
-          "lv++<+<+<+<<<<<+<+<>><>+>=,^=;==;;=;>/}C|I1u3)sz7}exe[5ZnttneZZ}nuueeutny]yyeYy]ayZnY5juYyjESEaE]Eek2wyYySE]ESSyox2w]nnj5]SkwwZEqSyaEE]2]2SjaAEc` `  `",
-          "lT++++<++<+<<+<<<+<><<>+>^^;;;=;=;;;*{}J(1313JLs7(F3tt[[ullt[ontonlt1I}3xS]xeaS]2ajeZoYlYYyqkkP4wyjwqxZ]EEESSw2ZZjj2e}ojyaEExoyw222EE]2]2ESxjGq?.     ",
-          "lvr+!!!+!!+!+!+++++++!++>;;<>>>><><rF}JJ(f33}FJ??FJ)J|FiC}f11nIn[t3tulIFu]SZZ29OkS]xy]xnonaECzsn6xYYZ]wS22EEq][ZaaSjIny2a]jey]aS2]2222]22SEjabwL-` ` `",
-          "[)z///z//***/*/****/*/*c!<<+!!cc*r/|t{FCJi3}C|JL*F(((vF7((i}CfieZneulun1f}ue55PSZtl1feYY5eZ26wk9xoj6kkwE]]2]EZZYxZae3YZ5yxYSw]xwE22]]]]]2w]y2USs'`    ",
-          "YFTLTTLLLLLsLLssssLssLs?/!!c/?zzzs|1iFC}{7f}}{FJc7(F|7v7J7F{}C(l5Y5o5ne5xjuuj6o[kkqqylfeYZx5Y5y]]SPw22wqE2wqjoZEqhE3oxZZx5xS]2ywSE2E]222ESxEEAS?_.` ` ",
-          "yiJv))vvvvvvvTvTvTvvTvTLz**?LsLsL|IC|{{CF7i}}iiFcv|}i(|(77|FfCvtln5xxZooojouaw8m6]]S2a5nnZYZej]E22S99dPwSqq][eaq24e1ZYe5Z5wwqjy2]Ya]222EEE5SSUE?:-`   ",
-          "wC7J)TvvTTTTTTTLTLLLLLTLz*zs???s|utiiFF((7((iF({*)vTLLsLssTTs)z{f3tnZ5xaEE5[]P6PS2E2x555Yy]2ax5neoe5Y55Zxyo1oaE6pP[txyxnxP6wweEwSE22]22qSY]SwK2/:-``  ",
-          "q}JvvvLLLLssLsLLsLLLLLLL/c/zzz?(nZtfi(F{|JJ)L)7C/fCF((F|FFFiii|/)Tv)J))|1[1I[xaay2E]ayxxjykSx2qkhkw]xZnuntlZo[[ZjutteonahPSqSxqE2]a]]]S2YEqE6Ax!--. ` ",
-          "w}Jv)vLLLTLLLLsssss??sLL/r*zzzvtxn[uf}Cf3f}}FF17/1ICFT7JJ)7((F}F{33tt3ffIC|}leeet133{ffftl1eEkSSwqS]x5eu1o5onZxSStC52j]2k996qawEE]a]]2Eya]a]hUn>-```` ",
-          "w}7v)vLTTTTLLssss?s?ssTs*c*z?s{xye5ZlIftuuuullF!vYyZ[l{ii{FFCIt}3unZZu}CI3}iIt3I1nooYZZa22xPhESw6qyZeu1loZoeneeaoZ7}EooYjyxyjaq2E2EEaEE2YEkSVOf^.```` ",
-          "ECJ))TTLLLLLLLLs???s?sLs*c/z?)fo2j[1t111f{||7?+;sjExYoneenl31u1uZ[[u[[3CI3}Cuen[tlltl[e55YaPSqwSEjeul}[55oZxyakw51^lwjjjxjyy5xqjjxYj]y]2EYj2Vd('`.````",
-          "]{vLLss?s?sLsss??z??sLs?cc*zz?cLIYx[[tfi(7(s*?zr(Zk5jS22aYo[u3f[l3uluullnul}ueooZoeee5yjxePEkEajjZntfnZZoeoYjaqj1+oGhSqqwE]q2a22EEE2]]]a]Ey]Vq?`....``",
-          "aiLss?????s?Lss???zzzsz****z7{lt|(jSuZYY5Zu}{FJ(jte92Ph6waxxYuf[1llllln5yxolo5oZY5e[ejEEoy]2]5Z5eut1n5eZxYYYoxatT{dPkPVbbO92x29wwwEE]E2a2wq245<`````..",
-          "j|LssLssssssss??z/////***c*czC5I5u)t25enl[[i((*ed2}ZVh22EEwqExYxZZnuuln5YYZuZxnZZZo[Z]]w[]aaY5xYu3}t5eoZYZe[oyt7/33ffoYn3fFCl5wSqqqkkP6PS2P9V}: ````  ",
-          "x|?zzzz/z///////zz///**/***v7Tze2lo3C5yet3|L)zuX9P2v]Vway2EqE]P22E]xYYxyxYZly2y5ZennoyhSjqPw2]aZ[uu5e5n1CI31tfiTsI56S]te5ne[[ZjjyjjjyjjSPkPhO|.`     `",
-          "j|ssssLssssssss???s???zz?s(1exZiL}111[5xYu}F(ihb2w2e3E6Sw2axa]kjEk6kqSEE]yujExx55xaEqdPeuYZ5YY[fi|tonZxy]EE2]]2uftf3yY[2o3F|Fi}I1t3fI1lnx]Sd6?` ``    ",
-          "]Ifff}f}}}}}C{{iiFiiF|||(}[a6dp9E5fJs*c*s)|ux2OB0#bdhHB8X#W%BGhDBMWMMMMW#V980B#K4qyet{(7(F{CCf1[j6RMNW0B$0gD$MWXhVh2nlqMBRUGGbbXmHbVVOKRBg86z.``  ` ` "
+          "dyxZ5Z[tIIII}i7)JJCIt3IIIt[elC*!r/svF3YPVG6jfL+;,=+)3Zxjjjyjyyjyyyjyyyjyjjyjyyyjjyjyyyy]2EE]jjYYZZ5YxxxYxYYYxYY5Y5YY555Z555ZZZZZ55ZZZZZZZoZZZZoooooeee",
+          "kIFJJ7JvL?ssTs/*rc?TJTLszTvv7u4UHXAbOOVd6P4OOp4dqa[i)|i|FFiFFFFFFFF|F|FF|F|F|F|F||F|FFFi{C{{i|||7((||||||||(((|((((((7(7((7777(7((7(((777(777J7J7JJJJ3",
+          "q}JJ7)J((T/z?c=''_>rz?/?)JJFnwq]]y]EwwE2]]]Sk9Vbm#gDd5F7JJJJJ))))J7JJ7J7JJ7JJ777((77((|FiF{i|77Jvv))J)))))JJ7JJ)JJ7J)))))v)vvvvvv)vvvTvTTTTTvTTTTTTTLI",
+          "kf()7777|i7L?zzs?*/??zT777JJFu]wPh99d4dd9h9h66h64VVhEj3|7JJ)JJJJJJJ7J7J77J77J77(J7|{31ttt1IC|((()v)JJJ777J7777(J{lullt33}}{i|(77JJ)))vvvvvvTvTTLTLTLL3",
+          "kf|7((||i}3tu[nn[uu1II}{F(7J)JF{3le5y]SqPP6PkkwwE]yxnf(7J7JJJJJJJJ7J7777J7777(Clneoou111[Zx5onu3{(JJJJJJJ777777}fJsTvJ7|i{CI31llltt1If}{F|(7)vvTTTTTTI",
+          "93{i{{C}}1l[oooYxyyyYou31Iff}CiiF(JJ(FCf31111II}{iF((JJJ))v))JJJJ)JJJJJ77|iuoZn})Lszr+<+rc?sssJ|i3lf(7JJ7J7777(}{+--::_,=;<+rc*/z?LT)7(FC}fI3313ff}{i}",
+          "dtf3I1llullu1tttluuu[[nnoZZeeon[uu13If}C{iF||((7777JJJJJJJJ)J)J))J7JJJ77I[e}T?r^-````...-----''^<zJ{l3{J77(77((fi<.`  `     `` ``.-':,^;>++rc//zsLT)7/",
+          "Vu1tl[[neZ55YxxjjjjjyyayayayyjjjjxY5Zon[ltt33f}}{{iiF|((((7777777J77(JCnuJ/,.``````.----`--.'_'::'^<s|1ti|7JJ(7fF>. `     `        `        ```.'':_^ ",
+          "A[u[Z5YxjyyaESwwSSqkkPPPkkkkkkPkkkkqE2ayxYoonuttIIf}CC{iiiFi|||((|7(7ClF+-`   ` ``.--':-'.''..''__-',<LCu3F(7773|=.         `   `   `  ` `    `       ",
+          "U[lnYj]ESEEwwwqqqwwwSSwwwwwqqqqqqqkPPP6PPkS2]yYon[lt33IfC{{iiFFF|||||t{=`` ` ``.`..-'::'-`-.-''..:,:-',<L}l1fF737^`     `                 `    `      ",
+          "b[uZj2wqwqwwwE22]2]]]22]2]]222]]]]]2EwwqqqkkkqwE2ajYZenul13f}CCiiiii}uz-` `  `...``.-''.```.`-...`'_::.-_<s7}ut1J,` `       `                         ",
+          "d[ZaSqqSEE2]22]a22]]]]]]a]]a]]]a]]]]]222]a22SwkPqwwE]yxYZeult13ff}{{n|:  `  ```````````` ` `  `.```.-.``..:^+/7|c:`   ` ```.`.--....`.```` ` `   `  ` ",
+          "D9ddPqE2E]222]2]]]]]a]a]a]a]]a]]a]]]]]]]a]]]]22SwwqkqS2ay5Zen[ut11ttZs.      ````````       `       ` ` ```...:>:`      ``..--'-''------.-.-..-.....` ",
+          "%kwS22222ESSE22]]a]a]a]a]a]aa]aa]aaaa]a]a]aa]]2E22EESqqwE]yx5oenull[yz `        ```....-''_:_,__-``     ```````.`.` ` ` ` ``..---.....-..--.-------.-.",
+          "&E22EwP6hpGbGOVVV449hPS]]a]]]]a]aa]]aa]a]]a]aaa]2]]22ESSEE]]jx5oenn]u;     `.':,,=>+rzTJ(i{{{C{|Tz!='``   ``  .:.`     ``` `` ` ````.`...`.....-....`.",
+          "&2Eq69qqhP2]]ESSwkP9dd9w]]]]a]]a]aaa]aa]aa]]a]]]]22EEE2EE22]yjjYZeYP{:    `'=<r*?v7{1nYy]S]2]]yxYe1{?>-      .__:``  ` ` `` `````````` ``````````````.",
+          "&qh9qjyExfiF{F(iC}}3t5kdkE]a]]]aa]]a]a]aa]aa]aa]22EE2222E2]ayjxxYY]9F'   `';<!*?T7{I1llttlulll1IIIIIC7<-` ```.':-`     ````` ``` ``` ```````.`.`.`..`.",
+          "Q9kYnoYl|JT?vFCiJJ7J)|[w9w2]]]a]]a]]a]]a]a]]a]]]E222EE2E2]aajxxYYZqh).   .=;>rzL7CI11ltttlllt113C{i|vJ/_```..-:_-`` ` ``` ```````````````.`.``.`.`.`..",
+          "mj[nen333}F7sCIfC{(JJJinq9k]2]]]]]]]]]]]]]]]]]2SEE2E22E2]]aajxYY5524C:  .,><csJi3[enn[[l[nZZxjjx[I{JsT/_```.',*<,``   ```````````````.`.``.`.`.`..`..-",
+          "KenYxxyxn3{(FTf}Tv((7JJFnw9w2]]]]]]a]]]]]]222EEE22E222E2]aayxYY55oj92! `_,:'_=>rz7funoooo5Yyaxel13f{|v?=. ``-c|z,`   ``` ``` ```````````.```.`.......-",
+          "Vey2xjjj53{CIC7)JFiF(777iu2wS2]a]]]]]]]]]2EE22EE222E222]]yyjYY555oZE6v`'<,:':'''-'=/)|{i}1f{)*rrc*r=^>r<- ` ^|FJ,``   ``````````````.`.``.`.`......--'",
+          "PItjaYj51{Fi1CLz|3Ciii|JCeShq222]]E2E2EEEE2E2222EE2E]2aayyjx5Z55oZY6]/-_;^,'-':'''-`-<T(L!<^-':,^<r/sz?/'` .>i(7^`` ` ````````````````.`.`.......-...'",
+          "6I(ljxZ[IC{}i*=_+FlttfC3jhVq2E22EE2EEEEE2E2222]2222]]aayyjxY5Z5ZZZjhf>:^+cL)JT)vsz*z7[]jY[()s/*z??!?TJvL^.'_*f|J,``   ``` `` ``````````.``.`.......-.'",
+          "h3FFu5lufCCfit55l3aaxu[jSwS2222EE2E2EE2E222E22222E]]aayyjxY5ZZZZoeyk{>'<?)Ffueu1333Cfne1[nZy5lIC3lYYlC(7></zfll7_`   ` ``````````````.``.......-.-.--'",
+          "91FFCtnu3{CCnkpAOyE]wyYeZ2q22E]22222222222E22E222]aayyjxxY5ZZZooeoYqu!'!sLJi{{}C{}Ci{uoZZu}Ci3[Yaa5l3f}J=J7v3{n7_. `  ```` ```` ```.`..`.`....-.---.-:",
+          "h3}{iCtu1I}F}xkP2u5wSjjoZEwE]2222222E222222]]]]]aayjjjxxY55ZZZZeen5Exv==/?v(CI{|J)JJiuYj5e5[C(3xxeutIC{Tc)(fIFo):``   ``````````````.``.`......-.-.--:",
+          "plff}}{{CCiiF{ItIC1Zajut]q2a22]2]2222EEEE222]]ayyjjjxxxYYYZZoeennn[Ywf+_<!czTvL?+_'-_rTzr<rF1{FFoou3}ii/J1CfC{ZJ:`    `` ````````.``.`.`.`...-.------:",
+          "puffIfIff{iFFFF|((JF{{tjSaaaa]2]]]]]222222]aayjjxxxYYYYY5Zoooennn[[e2x)::=<<<^^=,:^>/crc!!r+v7s!z({i}{(<({C{F}Z)'`  ` ````` ```````.`.`.`.....-.-.-.-'",
+          "OufC}C}}}Iff}C{F||i{IeaEayyyyya]]a]aaayyyyyjjxxxY555555ZZoeeenn[uuuueP2/`'=>,.--',+L|FC}Fv*r<,-:zLT()/>z13{Fi}Zv'`    ```````````.```.`.....-.-.--.--'",
+          "plf}}f}C}CCC}}}C{{C1Za2axjjjjyyyaaaayyjjjxxxYYY5ZZZZ5ZZooeee[[[uullu[5qf:`',--^==!s|331t}|(CI|r!sLT*='_|oCiiFfoT' `  ``` `````````.`.`.``..-..-.---.-'",
+          "pl}CCCC{CC{{{CC}f3u5ayjYYxjjjjjxjjxjxxxxxYYYY5ZZ555ZZZoooenen[ulllll3lx6v` ..'^,^__;czz*+r)(Fi!;*r>:.`rn[FiFFfoL-`    ``````````.``.`.`.....-.-------:",
+          "GuIf}}}CCCC{}}}Itnj]]x55YYxxxYYxYYYYxYYY5Y55ZZZZZ5oooooeennn[ullllllttu2]L' ``:=<=;;><*T||(}fz==_:-``^35CFiiFIes-`  ` ```````````.``.`.`.....--.-.--'_",
+          "b[IIfIfffffI131uox]yYYYYYY555555Y5Y5YYY55YZZZZZZZoooeeenennnlllul1tt113uwqf>``.',=;><!*?v|Fv!:-..```_JYl3lCFF3[z.`   ````` ````.``.`.`..`..---.-----'_",
+          "Uou133333tueeeoYjyxYY55YY5ZZ55555ZZZ55Z5ZZZZoZZZoeoeennn[[uulllltt113333tx9jc` `..-:_=;;=>>,-`````'<?*FnYkE[{3[*.`    ````````````.``.`.....-.---.--'_",
+          "Dxo[lluu[oYjjjyjjx5555YY555Z555Z5ZZZZ5ZZZ5ZoZooooeennn[[uulllltttt131333t33Pn<.    ````..`. ```.:>?JTT>rSgVp2[tc.`  ` `````````.`.`.`.`....-.--.----'_",
+          "#YooZZeo55Y555YZ55ZY5Y555Z55555555Z55555ZooZooZZooennn[uullllltlt1131331IICoYL^'-.`    ``..--:,>/v7Ls)=C0bShA4er``   `````````.``.`.``..`...-----.--'_",
+          "$YoooeoooooZZ5ZZZ555Y55Z55Z55555ZZZZ55ZZZZZZZZeoen[[[u[ullllltt1113333IIfIIYxJ^_,:::__,_,,^^;>!/ssz/?L*dgwES4DaL=.`````````````.`.``..`.....--------'_",
+          "#5ennnneeoZZZZ5ZZZZZ5555555Z555Z5ZZZ5ZZ5ZZoZoooe[[u[uu[ullllt1113333IffIfn2aC<:''_,=+++<;;=;<!*?L?/z?!jgVS2ESVRbEZ[I|L+^:-``..`.`.......`..-.--.----',",
+          "#5ennnnZYjx5oeo5ZZ5ZZZZZZZ5Z5ZZZZZZZZ5ZZooooeee[uuuuuulllllt111133Iff}ffna[T=::'':_^;=^=^=;<r*?s?zzz/ugGS]222wdm%@@QBK9E5nI)c>,'............--------',",
+          "DZnn[nZxqd9wx5eoZZZZZZZZZZZZZZZ5ZZoZoZooeoeoee[[[ululultlllt1tIII331llluY3!:..:''':_^,^^;><!c**/z?zcIKAw2E222E2E]]2kpHM&&&Q84wyZlCv*;:....-..-.-----'_",
+          "D5n[[exyeifj2xonooooZoZZZoZoZZZZZZZoooooeeoeenn[uuullultlltt1lu[[[ut3}iCtL,-` -'''_,^^==;;>+r*/z??cCG8w222E2a]]]2Eaa]2Sw2aqG8$W%WgX4SZ{<:-..-.---.--'_",
+          "D5e[[ZyZJ_+fajYeooeooooZZZZZZZ55ZZZZoZoooooennuuulllllltu[eenlf3ICF(7((tic,.  `-''':,^=;;>>>!rcc*/I9A6222E2]E22EEEwSS2aajjyjYx2aw9ADN&W4f+--.-...-.-:,",
+          "RZ[eo55C;.'LoxZeeoZooZooZZZZZZZoZoooZoeoeoen[[uuuulu[[eele1C{i{{FF||FCfILr=-` ``.-':::_,^^,=^==>sedbhE2222SEEEEE2EE22EwSEE]qwSjwEaa]2E4WQ6),-.---.--'_",
+          "R5nneoev_`./exZeneooZooooooeooooooooooeoeenn[[uuulun[l1I[}}1f}}}{ii{{f3J/c>^_..`..'''__,^>!czs?|5dG6E2EE2E2E22EEE222222wEaE2wxqSSE2]aE2aVNXl+--...--:_",
+          "DYeennlL: _)YYnl[nooZZoZooZZZZoooooZoeenennn[[[uunelIIllIttf}CC{{{CCCffvz*r?77c,'''_^;>!Li}f}I3lEV9E2EE2EEE22EEE]a2E]2SSjSESjSSkw]SE2]2SqwH$E+''''-'::",
+          "#xe[tl3s: ^Fxo[[u[[eeoZZoZooZZoooeooZooeeon[u[uunu1Il[[l1u1I}CI3If{15xCzc/v1a6]}c^^;rT({unI}|}33aVmHXm8KbOhS2E]a2EE22S2ywESa2EPEjwSS226Py]kUQ1'--..-.`",
+          "RYel1tI/'`=FYo[[[[nneeooooZZZZZZYjjjjxYoee[u[[uult1o5o[1Zll3C3[Z[1nefTLc!LC[ZnE4SiL7IZ5l{F(((77FCnja2E22aaqPSEEESE2EE2EE]222]Syaq22k96x5wPwkgw+` ` `  ",
+          "m5[t3uC!.`^ixZn[[nenenooZoZZZY2qkS]xjE6hwYn[[eo[ltnYyYI5tu[l{uZeZ5f)v?czszzsC5SSyqYyoIfCJvv|}II{I33utf[YySPqE2EEESESww22SS]2EaEwa]kq5xh4kS2kH9s`     `",
+          "HZl3tu(=``,(Y5n[[nneeeooZZoZY]aoZjxoYayaPPxeYxen1[eY[3Zeeeet}leZuu]aofC((7F{iJv?i5nut}F7(|CleuunjkVGh9KUp9SEqk6Pkqq2yyEEw2Swqj]2E6wZ69kE222qbV).   `  ",
+          "Keltt1v;::>{xo[[[nooZo55ZZoZjxeZ1(1Zn{zrTZ2Zx3FeEyEeojet3f3f{3ffIt[I[]aa5ZooYaqwwInnl[llunYa]xx]kkkwxYExj]aajj5jaaxEkqSq]Y]S5Sww9aE4kESE222wbG(-      ",
+          "Gu131lI{|FCuZ[lllltuno5Y5ZZ5xee3c-:;<z*/|lnu1(|tyxu]wSkSaZu[eYnuo5t2bKUbh2y2wqyYkZ)lSyxj]ES44PSqPPqwEPqqqESwwwqwESEwEESP5qwZwq6pEkP]22222EESbK{:      ",
+          "X5oZeoYjyyyYe[ooooen[[n[eZoZ5oICC|foxjYu1tll{J7IYljEjjxjYu11e[utlY{2PwSqPyn5jjoyEpPGhkSwwq6PwSY]ESkSaqSEES222Ew2]2E2]2P2]w6[E2PYu4S2]aa]2]2S9G}:      ",
+          "DjxYZu1Iff3loZxaa]ajYuI1e5YjYl11uenI}CIl1fIf(JLiuZ]2]]2yn111nu[entY2PwE2wSe2EaZqw9O9EESPq2]q6ajEEEhyEP22EE22S2jaEE2EEqPe]Plwq]E2Sh2ESE2]]2EkhG}:      ",
+          "d2ajYon[u[noxjya]]]axoeox]E2yYnltttueeen[uCI()T7taax2EEaef1uu[nnZea5S6wwq]Zq2axaE22wEaa22ayS]x]]SSPoqq2EE2SwaaSwE]2]2q2jSlPOwSP2xh2222]E222w9K1_  `   ",
+          "ZfiFF|(7777(|FFFFFiiF|FFii{iF|(77777(7777{nf1(LJt22aj]x5n[t5YjY[lEaY5EEaSxawEy5]S2E]yxa]2j]xjw2]2wE5qqE]2wEx2wS22222Eqj2eS9S22PyaP2]2Swa2E229$o^      ",
+          "u)crcr!r!!!!r!r!r!!!!+++<>>>>>><><><>>>>TCIn1})v1jEEEyxo[elZjak21waaYYyxZjwEqyjSSS2Ya]222aySq]]]2qayPE2EEwaEwESqqwaSqwj]o2wE2qhj26EEPqxESE2S6DY;      ",
+          "uv++<<+<+<<<<<<<<<<<<<><>=_,^^=^=====;>T}}iTIi7v}ZjjyZo[[e1exaqjn2yxxoy]xj2wS5yw]S]Y22wSjE]SE2aS2qyEkESwP2]q2Eww]aSS92aZYyEESEynq6wkyyqwE2Eq2Kj> `  ` ",
+          "uv++<+<+<<<<<<<<<<<<>>><>=,,^=^=====;;zfIt5oJvLL}eyxeu[[eulneYEunjyjxeexyaj]YYawwwjyEEqxY]aEwEaSEP5kwkPq2awSEwS5YEwPhy[ojjqSE22akEwySkw222wEjA]+`     ",
+          "lT+<<<+<+<<<<<<<<<<>><><>=_^======;;;/}}|3t[1)?z(}ejonY5etlee55}e[[eo[leaEayox]]]]5exYynxaySqS]SESZPSqaY]wS22wwa5jEk2eeyYEwkqqYSkw]]SE222Ewy]XSc`     ",
+          "uT+++<+<<+<<<<<<<+>><><<>^^=;===;;;;*{fJ(t3137Ls7(F1tlnn[lulnZnlZnultIf1jw2yo2S2E]yo5ZxuYxaP66hVq]ywkjY2SS2ESqEYZyyEofZaa]SSjZ]qE22SS2E22EwjaUk?.     ",
+          "lvr+!!!+!+!+++++<++++!++>=;>>>>><>>rFfJJ(I13fFJ??iJ)JFFi}fI1tn1nnl1luu3F[2q55E4O6w2jaExe5o]SC/se9jxx52qwEEESPEnZ2]wy3naE2EyZa2]wE2E2EE2EEwEy]Aqs-`  ` ",
+          "[)z//////***/*/****/***c!<<++!cccr*|l{iC7i3f}|JTcF||(vF(((i}}fioYee[u[ntI}[oYY6qZuutfoxxYe5S9q64jZahPPqS22E2S5Zjj5]Z1x5YajxwqEjq22E22222Eq2aEKws'`    ",
+          "xFTLTTTLLLLsLLssLsLssLs?*!!czzzzzs|t{F}f{7I}}CFJ*7(F|(v7J7FCf}(uYxYZYeexxa[uy9Zn6PPPauIox5jYxxa22wPqE2wkEEqPao5SkdS3oj55jYyq2SaqSSEE222EEqjSSXw?:.    ",
+          "aiJv))vv)vvvvvvTvTvvTvvLzc*?LLsLL|3}|C{Ci7{f}{{Fr)|}i||(7(FFf}vtleYjjYZo5yZu2kDRh22wE2Yee5x5oy2SSEq944hqwPk2no2PEVZt5xox5YqqkayS]j]2E22EwSYSwKS?:-`   ",
+          "w}7J)vvTTTTTTTTLLTLLLTLTz/zs???s|[tiiiF((7((iF({*))TLLsLL?TTLvzCI1leZYj]SSYnE6h6qSSSjY5YxaESajYeoZZYx5Y5j]Z1Z]ShG6[tyajejh6qqowqSSE2222qwx2wqHE/'-`   ",
+          "k}J))TTLLLsLsLLLLLLLsLTL/c*zzz?(e5lIi|F{FJJJLJ7}/f}F((FFFFiii{|/)Tv)J)J|tntInj22aEw2]ayjya6wjEPPhPqEjYe[etuYonn5a[lloZe]dPEwqjPEE2a222wExSkEhXj!-..` `",
+          "q}7v)vLLTLTLLsssss?sssLs*r*zzzvljen[I}CI3I}}i|t7*tI}Fv77J)(((i}FC31ll3III}|fueoelt13CIfIlutow6SSEkq]y5o[tZYZe5ywwl}5Ey2SPd9hk]kSE2]]22Sa]2]EdKn>.```  ",
+          "q}7))vLTTvTLLLsss?s?ssLL/r*zzsCxaoY5uIIl[[[[uuF!vjyYnl{i{{FF}Ilf1[n55[fC31fiIl13teoZx55]S2y6hESw6ka5o[tuZ5ooeoo]ZZ7}wZZxyyjay2kESESS]SwEjSPwpbf^.```` ",
+          "S}J))TTLLsLLLLLs???s?sL?*c/z?JfZEynttt1tI{F|7?+;sywjxZoeoeu1tut[5[e[nn1C33fC[oentuulu[oYYx26EqqqSao[lfn5YZ5ja2PqYt^uqayaja]]YjPayjxa2a2SSxySpV(-`.``` ",
+          "2{vTLss?sssLsss??z??sLL?cc*zz?cL3jjnnlIi(7(s*?/r(5PYyqEE]xZnu1fnl1[l[[lun[lfuoZZZ5oeoYayyo6SPwayy5elInY5Zo5xy]Pyt+ZUdwkkqS2PE]EESSSE2E222S]2Ok?`.`````",
+          "aiT?s?????s?Lss???z/?sz****z7{ul|(ywu5xxY5[}{FJ|ylodS6dhk]yjx[I[tluulueYayZuZYZ5j5onoywwoaE22Y5xo[l1eYo5jxxxZj]lT{V666OKAb4EjSdkkqSSESE]EqkSV5<```.``.",
+          "jFLssLssssssss??z////***c**r?CY35[)lExeelnn{(|*o4E}5O9EESwqkSyxj5Ye[uueYxx5[5je555Zn5E2qn222jYjxu1}lYoo5x5enZal7/31IfZxe1fF}lYkqkkPPPh96w26dp}:  ` `` ",
+          "j|?zzzz/z///////zz///******v7TzeSuZ3Cxaol1|L)z[md9Sv2Ok]]ESkS2hESS2jxxj]jx5laEaY5oeeZa9qykhqEE]5n[[YeYetC31ttIivsIY9wEtoYeonn5yyayyyayyq666db|.`      ",
+          "j|LsssLLsssssss???s???z?zL(1oj5{L}t1tnYjx[}F|i9ASqEo3S9wkE]y]26ySPh6PqSS2][ywjyYYj2SkVhenY5Yxxnfi|lZo5jaESSEE2E[flf1axnEZ1i|i{}3tt3IItunj2wVh?` `     ",
+          "2If}ff}}}}}}C{{iiFiFF|||(}[]h4G9SYfJsccc?)|ujEbgNBU4980RmB%&0b9#0W%WWWW%BpdRN0BXVkyot{77(F{CCf1nj9DWQ%N0gNM$gW%mdp9EnlkW0DKbbUAHR8AOpbX#0MRh/. ` `    "
         ],
         "asciiColors": [
           [
@@ -11519,62 +11681,36 @@
             "#080d11"
           ]
         ],
-        "accentColor": "#ffffff",
-        "contrast": 5,
-        "colorMode": "color"
+        "cols": 150,
+        "rows": 75
       },
       "locked": false,
       "visible": true,
-      "zIndex": 2,
-      "instanceId": "widget_1791426829678_1"
+      "zIndex": 8
     },
     {
-      "widgetId": "terminal-info",
-      "name": "Terminal-info Widget",
-      "position": {
-        "x": 296,
-        "y": 106
-      },
-      "size": {
-        "width": 504,
-        "height": 280
-      },
-      "config": {
-        "headerColor": "#c5ff4a",
-        "labelColor": "#ffa657",
-        "dotColor": "#484f58",
-        "valueColor": "#f0f6fc",
-        "statsValColor": "#79c0ff",
-        "dividerColor": "#30363d"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 3,
-      "instanceId": "widget_1791426829678_2"
-    },
-    {
-      "widgetId": "languages",
-      "name": "Languages Widget",
+      "instanceId": "widget_1791428532714",
+      "widgetId": "contribution-snake",
+      "name": "Contribution-snake Widget",
       "position": {
         "x": 0,
-        "y": 402
+        "y": 922
       },
       "size": {
-        "width": 536,
-        "height": 160
+        "width": 800,
+        "height": 250
       },
       "config": {},
       "locked": false,
       "visible": true,
-      "zIndex": 4,
-      "instanceId": "widget_1791426829678_3"
+      "zIndex": 9
     },
     {
       "widgetId": "footer",
       "name": "Footer Widget",
       "position": {
         "x": 0,
-        "y": 578
+        "y": 1196
       },
       "size": {
         "width": 800,
@@ -11583,49 +11719,8 @@
       "config": {},
       "locked": false,
       "visible": true,
-      "zIndex": 6,
+      "zIndex": 10,
       "instanceId": "widget_1791426829678_4"
-    },
-    {
-      "widgetId": "tech-stack",
-      "name": "Tech-stack Widget",
-      "position": {
-        "x": 544,
-        "y": 402
-      },
-      "size": {
-        "width": 240,
-        "height": 160
-      },
-      "config": {
-        "selectedTechs": [
-          "js",
-          "ts",
-          "react",
-          "nextjs",
-          "nodejs",
-          "tailwind",
-          "postgres",
-          "docker",
-          "git",
-          "php",
-          "vue",
-          "bootstrap",
-          "jquery",
-          "express",
-          "fastapi",
-          "mysql",
-          "mongodb",
-          "linux",
-          "postman"
-        ],
-        "theme": "dark",
-        "perLine": 4
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 6,
-      "instanceId": "widget_1791426829678_5"
     }
   ],
   "globalStyles": {
@@ -11642,7 +11737,7 @@
   "templateId": "cyberpunk",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1791427297657_ko9tm",
-    "updatedAt": "2026-10-08T02:41:41.874Z"
+    "revision": "rev_1791428762310_zfx91",
+    "updatedAt": "2026-10-08T03:06:06.151Z"
   }
 }
